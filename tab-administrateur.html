@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devite - Tableau Administrateur</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="header-left">
+            <img src="./image1.png" alt="Logo Devite" class="logo-img">
+        </div>
+        <div class="user-profile">
+            Bienvenue, Administrateur.
+            <div class="avatar-placeholder">
+                <svg viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>
+            </div>
+        </div>
+    </header>
+
+    <main class="page-container">
+        <h1 class="page-title">Tableau Administrateur</h1>
+
+        <div class="dashboard-grid">
+            <div class="dashboard-section">
+                <h2>Statistiques générales:</h2>
+                
+                <div class="stat-card">
+                    nombre moyen d'estimations tarifaires par entreprise :
+                    <div class="stat-card-graph">&lt;graphe&gt;</div>
+                </div>
+                <div class="stat-card">
+                    nombre moyen d'estimations tarifaires par apprenti :
+                    <div class="stat-card-graph">&lt;graphe&gt;</div>
+                </div>
+                <div class="stat-card">
+                    nombre moyen d'estimations tarifaires par formation :
+                    <div class="stat-card-graph">&lt;graphe&gt;</div>
+                </div>
+                <div class="stat-card">
+                    nombre moyen d'estimations tarifaires par composante :
+                    <div class="stat-card-graph">&lt;graphe&gt;</div>
+                </div>
+            </div>
+
+            <div class="dashboard-section">
+                <h2>Outils:</h2>
+                <div class="admin-tools-grid">
+                    <button class="tool-btn">Modifier les années de formation</button>
+                    <button class="tool-btn">Modifier les valeurs pour l'estimation</button>
+                    <button class="tool-btn">Consulter les comptes des utilisateurs</button>
+                    <a href="historique.html" class="tool-btn">Consulter l'historique des actions utilisateur</a>
+                    <a href="historique.html" class="tool-btn">Consulter l'historique des actions administrateur</a>
+                    <a href="tableau-de-bord.html" class="tool-btn">Accéder au tableau de bord utilisateur</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Application réalisée lors du projet de SAÉ 1-2</p>
+        <p>Lavergne, Hontabat, Polat, Usieto, Saint-Aubin | ISANUM 1° Année 2025 - 2026</p>
+        <p>Application réalisée pour la DFTLV</p>
+        <p>Devite - Simplifiez la gestion de vos devis d'alternance</p>
+    </footer>
+
+</body>
+</html>

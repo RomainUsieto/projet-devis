@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devite - Connexion</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="header-left">
+            <img src="./image1.png" alt="Logo Devite" class="logo-img">
+        </div>
+        </header>
+
+    <main class="login-main">
+        <div class="login-card">
+            
+            <div class="lock-icon-wrapper">
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm3.1-9H8.9V6c0-1.71 1.39-3.1 3.1-3.1 1.71 0 3.1 1.39 3.1 3.1v2z"/>
+                </svg>
+            </div>
+
+            <h1>Connectez-vous</h1>
+            <p>Accédez à votre espace personnel en vous<br>connectant à votre compte.</p>
+
+            <form action="tableau-de-bord.html">
+                <div class="input-group" style="text-align: left;">
+                    <label for="identifiant">Identifiant:</label>
+                    <input type="text" id="identifiant" name="identifiant" required>
+                </div>
+
+                <div class="input-group" style="text-align: left;">
+                    <label for="password">Mot de passe:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+
+                <div class="button-container">
+                    <button type="submit" class="btn-login">Se connecter</button>
+                </div>
+            </form>
+
+        </div>
+    </main>
+
+    <footer>
+        <p>Application réalisée lors du projet de SAÉ 1-2</p>
+        <p>Lavergne, Hontabat, Polat, Usieto, Saint-Aubin | ISANUM 1° Année 2025 - 2026</p>
+        <p>Application réalisée pour la DFTLV</p>
+        <p>Devite - Simplifiez la gestion de vos devis d'alternance</p>
+    </footer>
+
+</body>
+</html>

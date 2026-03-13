@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devite - Étape 3</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="header-left">
+            <img src="./image1.png" alt="Logo Devite" class="logo-img">
+        </div>
+        <div class="user-profile">
+            Utilisateur &lt;nom d'utilisateur&gt;
+            <div class="avatar-placeholder"><svg viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg></div>
+        </div>
+    </header>
+
+    <main class="page-container">
+        <a href="estim-etape-2.html" class="back-link">← Retourner à la page précédente</a>
+        <h1 class="page-title">Création de l'estimation : Étape 3</h1>
+
+        <div class="content-card">
+            <h2>Finalisation de l'estimation</h2>
+            
+            <form action="aperçu-estim.html"> <div class="form-grid">
+                    <div>
+                        <div class="input-group">
+                            <label>Fait le *:</label>
+                            <input type="date" required>
+                        </div>
+                        <div class="input-group">
+                            <label>Fait à *:</label>
+                            <input type="text" placeholder="Ville" required>
+                        </div>
+                        <div class="input-group">
+                            <label>Nom du signataire *:</label>
+                            <input type="text" required>
+                        </div>
+                        <div class="input-group">
+                            <label>Prénom du signataire *:</label>
+                            <input type="text" required>
+                        </div>
+                        <div class="input-group">
+                            <label>Commentaires:</label>
+                            <textarea></textarea>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="input-group">
+                            <label>Dossier suivi par:</label>
+                            <input type="text">
+                        </div>
+                        <div class="input-group">
+                            <label>Nom:</label>
+                            <input type="text">
+                        </div>
+                        <div class="input-group">
+                            <label>Prénom:</label>
+                            <input type="text">
+                        </div>
+                        <div class="input-group">
+                            <label>Tél:</label>
+                            <input type="tel">
+                        </div>
+                        <div class="input-group">
+                            <label>Email:</label>
+                            <input type="email">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-actions" style="justify-content: center; gap: 30px;">
+                    <button type="button">Enregistrer</button>
+                    <button type="submit">Aperçu de l'estimation</button>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>Application réalisée lors du projet de SAÉ 1-2</p>
+        <p>Lavergne, Hontabat, Polat, Usieto, Saint-Aubin | ISANUM 1° Année 2025 - 2026</p>
+        <p>Application réalisée pour la DFTLV</p>
+        <p>Devite - Simplifiez la gestion de vos devis d'alternance</p>
+    </footer>
+
+</body>
+</html>

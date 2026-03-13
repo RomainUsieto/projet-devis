@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devite - Création Étape 1</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="header-left logo-container">
+            <img src="./image1.png" alt="Logo Devite" class="logo-img">
+        </div>
+        <div class="user-profile">
+            Utilisateur &lt;nom d'utilisateur&gt;
+            <div class="avatar-placeholder">
+                <svg viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>
+            </div>
+        </div>
+    </header>
+
+    <main class="page-container">
+        <a href="./tableau-de-bord.html" class="back-link">← Retourner sur le tableau de bord</a>
+        <h1 class="page-title">Création de l'estimation : Étape 1</h1>
+
+        <div class="content-card">
+            <h2>Renseignements sur l'apprenti et son entreprise</h2>
+            
+            <form action="./estim-etape-2.html">
+                <div class="form-grid">
+                    <div class="input-group">
+                        <label>Prénom de l'apprenti</label>
+                        <input type="text">
+                    </div>
+                    <div class="input-group">
+                        <label>Nom de l'entreprise *</label>
+                        <input type="text" required>
+                    </div>
+
+                    <div class="input-group">
+                        <label>Nom de l'apprenti</label>
+                        <input type="text">
+                    </div>
+                    <div class="input-group">
+                        <label>Nom du contact de l'entreprise</label>
+                        <input type="text">
+                    </div>
+
+                    <div class="input-group">
+                        <label>Libellé de la formation *</label>
+                        <select class="form-select" style="width: 100%; padding: 12px; background: #d9d9d9; border: none; border-radius: 8px;">
+                            <option>formation n°1</option>
+                        </select>
+                    </div>
+                    <div class="input-group">
+                        <label>Prénom du contact de l'entreprise</label>
+                        <input type="text">
+                    </div>
+
+                    <div class="input-group">
+                        <label>SIRET de l'entreprise *</label>
+                        <input type="text" required>
+                    </div>
+                    <div class="input-group">
+                        <label>N° de téléphone</label>
+                        <input type="text">
+                    </div>
+
+                    <div></div> 
+                    <div class="input-group">
+                        <label>Adresse e-mail de l'entreprise *</label>
+                        <input type="email" required>
+                    </div>
+                </div>
+
+                <div class="form-actions">
+                    <button type="button" style="background-color: #ed8936;">Continuer plus tard</button>
+                    <button type="submit">Page suivante</button>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>Application réalisée lors du projet de SAÉ 1-2</p>
+        <p>Lavergne, Hontabat, Polat, Usieto, Saint-Aubin | ISANUM 1° Année 2025 - 2026</p>
+        <p>Application réalisée pour la DFTLV</p>
+        <p>Devite - Simplifiez la gestion de vos devis d'alternance</p>
+    </footer>
+
+</body>
+</html>
